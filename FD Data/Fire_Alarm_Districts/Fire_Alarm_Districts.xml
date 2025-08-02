@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20190531</pubdate>
+                <title>Fire Alarm Districts</title>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <publish>DC GIS</publish>
+                </pubinfo>
+                <lworkcit>
+                    <citeinfo>
+                        <title>DC Geographic Information System</title>
+                    </citeinfo>
+                </lworkcit>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>FEMS Engine Local Alarm Districts locations. The dataset contains locations and attributes of Engine Local Alarm Districts, created as part of the DC Geographic Information System (DC GIS) for the D.C. Office of the Chief Technology Officer (OCTO) and participating D.C. government agencies. Written documentation provided by FEMS identified Engine Local Alarm Districts locations. The dataset was created using the Street Center Line dataset as reference and snap base.</abstract>
+            <purpose>This data is used for the planning and management of Washington, D.C. by local government agencies.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20150531</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Unknown</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-77.13684510131819</westbc>
+                <eastbc>-76.91608857055677</eastbc>
+                <northbc>38.97603995180146</northbc>
+                <southbc>38.80581923088689</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Fire Alarm District</themekey>
+                <themekey>boundary</themekey>
+                <themekey>Service Area</themekey>
+                <themekey>pubSafety</themekey>
+                <themekey>District</themekey>
+                <themekey>Engine</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>society</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Washington</placekey>
+                <placekey>D.C.</placekey>
+                <placekey>DC GIS</placekey>
+                <placekey>DCGIS</placekey>
+                <placekey>DC</placekey>
+                <placekey>District of Columbia</placekey>
+            </place>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>This work is licensed under a Creative Commons Attribution 4.0 International License.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+                    <cntper>GIS Data Coordinator</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntfax>(202) 727-5660</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5 pm</hours>
+            </cntinfo>
+        </ptcontac>
+        <datacred>https://fems.dc.gov</datacred>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Data believed to be complete and accurate, subject to change. Engine Local Alarm Districts were checked for proper connectivity between bordering districts. Engine Local Alarm Districts were also checked to ensure snapping to Street Center Lines. In cases of "imaginary lines," alarm districts could not always be snapped to Street Center Lines. Not validated by source and/or responsible agency.</attraccr>
+        </attracc>
+        <logic>Validated by source and/or responsible agency.</logic>
+        <complete>Data believed to be complete and accurate, subject to change. Dataset is complete to the provided written documentation. Any service area(s) not represented or area(s) of the city not covered by service areas, are a result of possilbe missing information not provided by originator. Not validated by source and/or responsible agency.</complete>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Street Boundary Text Description</title>
+                    </citeinfo>
+                </srccite>
+                <srcscale>0</srcscale>
+                <typesrc>hardcopyPaper</typesrc>
+                <srccitea>Street Boundary Text Description</srccitea>
+                <srccontr>DC Fire Department 1923 Vermont Ave NW</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>The fire alarm districts were correcting for gaps and nesting in fire battalion boundaries.</procdesc>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Office of the Chief Technology Officer</cntorg>
+                            <cntper>GIS Data Coordinator</cntper>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>200 I Street SE, 5th Floor</address>
+                            <city>Washington</city>
+                            <state>DC</state>
+                            <postal>20001</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntfax>202-727-5660</cntfax>
+                        <cntemail>dcgis@dc.gov</cntemail>
+                        <hours>8:30am - 5:30pm</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Engine Local Alarm Districts were digitized manually snapping to the DC Street Center Line Dataset. Documentation was provided by FEMS describing the boundaries for each Engine Company. The process involved reading written boundaries and tracing the street center line from start to finish, thus creating a new polygon record for each Engine Company. Some descriptions are clear, while others are open to differing interpretation. For this reason, FEMS officials were consulted with to ensure proper coverage in areas where the descriptions are obscure. Maps showing first round digitization were delivered to each Engine Captain for an opportunity to dispute or confirm interpreted boundaries. Some areas of the city were not covered by any Engine Company according to written descriptions. These areas were brought to the attention of FEMS officials. Once all Maps were returned, hand written comments and boundaries from the Captains and the Deputy fire Chief, were compared to one another. Adjustments were made to the second round of digitization resulting in a more accurate account of Local Alarm Districts.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>FEMS updated a few first alarm areas.</procdesc>
+                <procdate>20190531</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+                            <cntper>GIS Data Coordinator</cntper>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>unknown</addrtype>
+                            <address>200 I Street SE, 5th Floor</address>
+                            <city>Washington</city>
+                            <state>DC</state>
+                            <postal>20003</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntfax>(202) 727-5660</cntfax>
+                        <cntemail>dcgis@dc.gov</cntemail>
+                        <hours>8:30 am - 5 pm</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>FirstDuePly</enttypl>
+                <enttypd>Engine Company Local Alarm Districts</enttypd>
+                <enttypds>FEMS</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+                <attrdef>Engine Company</attrdef>
+                <attrdefs>FEMS</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>DATE_EST</attrlabl>
+                <attrdef>Date of Established Alarm Districts</attrdef>
+                <attrdefs>FEMS</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ENGINE_ID</attrlabl>
+                <attrdef>Engine Company Identification Number</attrdef>
+                <attrdefs>FEMS</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>BATTALION</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.AREA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.LEN</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+                    <cntper>GIS Data Coordinator</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntfax>(202) 727-5660</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5 pm</hours>
+            </cntinfo>
+        </distrib>
+        <distliab>See access and use constraints information.</distliab>
+        <custom>DC datasets can be downloaded from "http://opendata.dc.gov".</custom>
+    </distinfo>
+    <metainfo>
+        <metd>20190607</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+                    <cntper>GIS Data Coordinator</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntfax>(202) 727-5660</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5 pm</hours>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
